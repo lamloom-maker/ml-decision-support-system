@@ -1,14 +1,14 @@
 # Machine Learning Application for House Price Prediction
 
 This project applies machine learning techniques to predict real estate prices using socioeconomic and housing-related features.
-The objective is to build robust predictive models that support data-driven decision-making for investors, analysts, and policymakers.
+The objective is to develop reliable predictive models that support data-driven decision-making for investors, analysts, and policymakers.
 
 ## Problem Statement
-Accurately predicting house prices is challenging due to the complex interactions between location, demographics, and economic factors.
-This project investigates multiple machine learning models to capture these relationships and improve prediction accuracy.
+House price prediction is a complex task due to non-linear relationships between location, demographics, and economic indicators.
+This project explores multiple machine learning approaches to model these interactions and improve predictive accuracy.
 
 ## Dataset
-The dataset includes housing-related attributes such as:
+The dataset consists of housing-related attributes, including:
 - Median income
 - Housing age
 - Population density
@@ -16,7 +16,7 @@ The dataset includes housing-related attributes such as:
 - Housing value metrics
 
 ## Methods & Models
-The following approaches were implemented:
+The following techniques were implemented:
 - Data cleaning and preprocessing
 - Feature engineering
 - Principal Component Analysis (PCA)
@@ -26,12 +26,12 @@ The following approaches were implemented:
 - Hierarchical Clustering (HC)
 
 ## Evaluation
-Model performance was evaluated using:
+Models were evaluated using:
 - Prediction accuracy
 - Error-based metrics
 - Comparative performance analysis across models
 
-Results indicate that ensemble-based models, particularly Random Forest, achieved superior predictive performance compared to traditional methods.
+Results show that ensemble-based models, particularly Random Forest, consistently outperformed baseline models in terms of predictive accuracy and robustness.
 
 ## Tools & Technologies
 - Python
@@ -42,12 +42,13 @@ Results indicate that ensemble-based models, particularly Random Forest, achieve
 ## Contribution
 This project was developed collaboratively.
 
-My contributions include:
-- Data preprocessing and feature engineering
-- Model development, training, and tuning
-- Performance evaluation and result interpretation
-- Visualization and comparative analysis of model outputs
+My individual contributions include:
+- Designing and implementing data preprocessing pipelines
+- Feature engineering and dimensionality reduction
+- Training, tuning, and evaluating machine learning models
+- Analyzing results and comparing model performance
+- Creating visualizations to communicate insights effectively
 
 ## Notes
-An academic report related to this project is included in the `docs/` directory for reference purposes only.
-The primary focus of this repository is the practical implementation and experimentation.
+A detailed project report (PDF) is included in the `docs/` directory for documentation and reference.
+The primary focus of this repository is on practical implementation, experimentation, and model evaluation.
